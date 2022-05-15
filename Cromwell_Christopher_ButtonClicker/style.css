@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* display: inline-flex; */
+    /* width: auto; */
+}
+
+.header{
+    width: 900px;
+    height: 75px;
+    margin: auto;
+    margin-bottom: 15px;
+    display: flex;
+    justify-self: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.title{
+    margin-left: 15px;
+    
+}
+
+.search{
+    background-color: white;
+    border: 3px solid black;
+    margin: 3px;
+    display: flex;
+    width: 300px;
+    padding: 3px;
+    color: darkgray;
+}
+
+.btnBlue{
+    padding: 3px 4px;
+    background-color:dodgerblue;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    margin-right: 15px;
+}
+
+.body{
+    width: 900px;
+    margin: auto;
+    justify-self: center;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.leftSide{
+    flex: 2;
+    margin-right: 15px;
+    /* display: flex; */
+    flex-direction:column;
+}
+.rightSide{
+    flex: 1;
+    /* padding-left: 15px; */
+    /* display: flex; */
+    flex-direction:column;
+}
+.box{
+    border: 2px solid black;
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 15px;
+
+}
+
+.leftC{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding-left: 15px;
+    padding: 10px;
+}
+.rightC{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 15px;
+}
+
+p{
+    padding-top: 15px;
+}
+
+.itallic{
+    font-style: italic;
+}
+
+.btnYellow{
+    display: flex;
+    /* width: auto; */
+    margin: auto;
+    background-color: goldenrod;
+    border: 2px solid black;
+    box-shadow: 2px 2px;
+    margin-top: 15px;
+    padding: 5px 10px;
+}
+
+.center{
+    display: inline-flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.btnGreen{
+    display: flex;
+    /* width: auto; */
+    margin: auto;
+    background-color:limegreen;
+    border: 2px solid black;
+    box-shadow: 2px 2px;
+    margin-top: 15px;
+    padding: 5px 20px;
+}
